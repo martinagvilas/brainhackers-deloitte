@@ -1,0 +1,5 @@
+# Jupyter notebook files
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
