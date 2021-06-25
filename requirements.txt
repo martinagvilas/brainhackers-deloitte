@@ -1,5 +1,7 @@
 # Requirements
 fairlearn
+ipywidgets
 jupyterlab
 scikit-learn==0.24.2
 seaborn
+streamlit
