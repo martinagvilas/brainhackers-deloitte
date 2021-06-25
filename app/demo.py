@@ -2,8 +2,8 @@ import pandas as pd
 import streamlit as st
 
 # Set tile of app
-st.title("Do Not Harm")
-st.write("Here is our important app")
+st.sidebar.title("Do No Harm")
+st.sidebar.write("Here is our important app")
 
 # Set title
 #st.title("")
@@ -19,23 +19,46 @@ uploaded_file = st.sidebar.file_uploader("Choose a file")
 if uploaded_file is not None:
     dataset = load_dataset(uploaded_file)
     
-    st.markdown("## Inspect your data")
-    st.markdown("Here is an overview of your data:")
-    st.write(dataset.head())
+    st.markdown("This is an overview of your dataset:")
+    inspect_data = st.dataframe(dataset.head())
+
+    features_list = dataset.columns.tolist()
+    features_list.insert(0, "None selected")
 
     pred = st.sidebar.selectbox(
         "Select variable to be predicted",
-        dataset.columns
+        features_list
     )
 
     sf = st.sidebar.multiselect(
-        "Select sensitive feature",
-        dataset.columns.to_list()
+        "Select sensitive feature/s",
+        features_list,
+        default=features_list[1]
+        # dataset.columns.to_list(),
+        # default=dataset.columns.to_list()[0]
     )
 
-    st.markdown("## Is your dataset balanced?")
-    
-    st.write(dataset[sf].value_counts())
-
-    balance = st.checkbox("Check the box if the dataset is balanced", "Yes")
-    st.write(balance)
+    if (pred is not "None selected"):
+        inspect_data.empty()
+        
+        st.markdown("## Is the dataset balanced in number of samples?")
+        st.markdown("{Description of what this means}")
+        
+        balances_n_samples = []
+        for f in sf:
+            st.write(dataset[f].value_counts())
+            balance = st.checkbox(f"Check the box if {f} is balanced", "Yes")
+            balances_n_samples.append(balance)
+        
+        st.markdown("## Is the dataset balanced with respect to other features?")
+        st.markdown("{Description of what this means}")
+        
+        balances_features = []
+        for f in sf:
+            st.write(dataset.groupby(f).mean())
+            balance = st.checkbox(
+                f"Check the box if {f} is balanced with respect to other features", "Yes"
+            )
+            balances_features.append(balance)
+        
+        st.write(dataset.groupby(by=sf, group_keys=True).mean())
