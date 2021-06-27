@@ -26,7 +26,7 @@ Our app is built using [Streamlit](https://streamlit.io/). To run it in your bro
 
 
 ## How to run the notebooks
-You can execute interactively the notebooks using [Binder](https://mybinder.org/), Just press the following badge: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinagvilas/brainhackers-deloitte/HEAD?urlpath=lab)
+You can execute interactively the notebooks using [Binder](https://mybinder.org/). Just press the following badge: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinagvilas/brainhackers-deloitte/HEAD?urlpath=lab)
 
 
 ## Authors
