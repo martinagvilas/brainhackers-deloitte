@@ -1,4 +1,4 @@
-<img src="app/deloitte_pitch_logo_square_blackV2.jpg" alt="black_logo" width="150" align="center"/>
+<img src="app/deloitte_pitch_logo_square_blackV2.png" alt="black_logo" width="150" align="center"/>
 
 
 # Just Data
