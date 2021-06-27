@@ -8,7 +8,7 @@ ___just data___ is an easy to use and accessible tool to counteract biases in ma
 > Take a look at the presentation of our project during #HerHackaton [here](https://docs.google.com/presentation/d/19n3YCCHYo_L5I6NWru_N_1UXOiQzOQu_ntFsj3xzPuE/edit#slide=id.ge12f623f95_0_45).
 
 ## How to execute the app locally
-> To run the app locally, we recommend the use of [conda environments]().
+> To run the app locally, we recommend the use of [conda environments](https://www.anaconda.com/).
 
 Run in your command line terminal the following commands:
 
@@ -26,7 +26,7 @@ Our app is built using [Streamlit](https://streamlit.io/). To run it in your bro
 
 
 ## How to run the notebooks
-- You can execute interactively the notebooks using [Binder](https://mybinder.org/), by pressing the following badge: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinagvilas/brainhackers-deloitte/HEAD?urlpath=lab)
+You can execute interactively the notebooks using [Binder](https://mybinder.org/), Just press the following badge: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinagvilas/brainhackers-deloitte/HEAD?urlpath=lab)
 
 
 ## Authors
