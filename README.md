@@ -1,4 +1,5 @@
-<img src="app/deloitte_pitch_logo_square_blackV2.png" alt="black_logo" width="150" align="center"/>
+
+<img align="center" src="app/deloitte_pitch_logo_square_blackV2.png" alt="black_logo" width="150" />
 
 
 # Just Data
@@ -25,14 +26,11 @@ Our app is built using [Streamlit](https://streamlit.io/). To run it in your bro
 
 
 ## How to run the notebooks
-- {Binder or google colab}
+- [__COMING SOON__] {Binder or google colab}
 
 
 ## Authors
 > _ordered alphabetically_
-- [Cora Fischer]()
-- [Ilkay Isik]()
-- [Martina Vilas]()
-
-## Acknowledgements
-{description}
+- [Cora Fischer](https://github.com/corafischer)
+- [Ilkay Isik](https://github.com/ilkayisik)
+- [Martina Vilas](https://github.com/martinagvilas)
