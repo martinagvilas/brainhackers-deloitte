@@ -1,4 +1,4 @@
-<center><img src="app/deloitte_pitch_logo_square.jpg" alt="black_logo" width="10"/></center>
+<img src="app/deloitte_pitch_logo_square.jpg" alt="black_logo" width="150" class="center"/>
 
 # Just Data
 ___just data___ is an easy to use and accessible tool to counteract biases in machine learning. It helps users to understand their data and their machine learning model. Future versions will enable users to understand the cause of underlying biases and how to mitigate them.
