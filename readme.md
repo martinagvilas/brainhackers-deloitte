@@ -1,3 +1,5 @@
+<center><img src="app/deloitte_pitch_logo_square.jpg" alt="black_logo" width="200"/></center>
+
 # Just Data
 ___just data___ is an easy to use and accessible tool to counteract biases in machine learning. It helps users to understand their data and their machine learning model. Future versions will enable users to understand the cause of underlying biases and how to mitigate them.
 
@@ -28,7 +30,7 @@ Our app is built using [Streamlit](https://streamlit.io/). To run it in your bro
 ## Authors
 > in alphabetic order
 - [Cora Fischer]()
-- [Ilkay Isiki]()
+- [Ilkay Isik]()
 - [Martina Vilas]()
 
 ## Acknowledgements
