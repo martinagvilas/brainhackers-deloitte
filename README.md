@@ -13,7 +13,7 @@ ___just data___ is an easy to use and accessible tool to counteract biases in ma
 Run in your command line terminal the following commands:
 
 ```bash
-$ git clone 
+$ git clone https://github.com/martinagvilas/brainhackers-deloitte.git
 $ cd {your/path/to/clone}
 $ conda create --name "deloitte-challenge" python=3.8
 $ conda activate deloitte-challenge
